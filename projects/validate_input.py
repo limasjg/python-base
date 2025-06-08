@@ -5,7 +5,7 @@
 
 username = input("Enter your username: ")
 
-if len(username) > 12 or " " in username or any(char.isdigit() for char in username):
-    print("Username can't be bigger than 12 caracteres or have spaces or digits")
+if len(username) > 12 or  " " in username or any(char.isdigit() for char in username):
+    print("Invalid username. Please ensure it is no more than 12 characters, contains no spaces, and has no digits.")
 else:
-    print(f"{username} created")    
+    print("Valid username.")
