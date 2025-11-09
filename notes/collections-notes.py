@@ -5,7 +5,7 @@
 
 
 # List
-animes = ["Naruto", "Dragon Ball", "Hunter x Hunter", "One punchman"]
+# animes = ["Naruto", "Dragon Ball", "Hunter x Hunter", "One punchman"]
 
 # print(animes[::2]) # You can indexing the values
 #print(dir(animes))
@@ -19,8 +19,28 @@ animes = ["Naruto", "Dragon Ball", "Hunter x Hunter", "One punchman"]
 # animes.reverse()
 # animes.clear()
 # print(animes.index("Naruto"))
-print(animes.count("Naruto"))
-print(animes)
+# print(animes.count("Naruto"))
+# print(animes)
 
 # for anime in animes:
 #     print(anime)
+
+#Set
+# fruits = {"banana", "apple", "orange", "coconut"}
+
+#print(dir(fruits))
+# print(help(fruits))
+#print(len(fruits))
+# fruits.add("pineapple")
+# fruits.remove("apple")
+# print(fruits)
+
+
+ #Tuple
+
+fruits = ("banana", "apple", "orange", "coconut", "coconut")
+# print(fruits)
+# print(len(fruits))
+# print("apple" in fruits)
+# print(fruits.index("apple"))
+print(fruits.count("coconut"))
