@@ -2,7 +2,7 @@
 # formula: X IF condition ELSE Y 
 
 num = 4
-a = 15
+a = 1
 b = 9
 age = 1
 temp = 28
@@ -11,4 +11,6 @@ temp = 28
 # print(a if a < b else b)
 # print("Adult" if age >= 18 else "Not Adult")
 
-print("HOT" if temp >= 28 else "Nice")
+print("a" if a > b else "b")
+ 
+#print("HOT" if temp >= 28 else "Nice")
