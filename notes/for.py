@@ -20,3 +20,6 @@ for x in range(1, 20):
         break
     else:
         print(f"{x:02d}")
+
+# for n in range(1, 11):
+#     print(n)

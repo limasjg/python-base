@@ -11,6 +11,8 @@ temp = 28
 # print(a if a < b else b)
 # print("Adult" if age >= 18 else "Not Adult")
 
-print("a" if a > b else "b")
+# print("a" if a > b else "b")
  
 #print("HOT" if temp >= 28 else "Nice")
+
+print("WIN" if a > b else "LOSE")

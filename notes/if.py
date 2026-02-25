@@ -22,12 +22,19 @@
 #     print(f"Hello {name}")
 
 #Third example:
-online = False
+# online = False
 
-if online:
-    print("You are online.")
+# if online:
+#     print("You are online.")
+# else:
+#     print("You are offline.")
+
+babe = False
+
+if babe:
+    print("Babe already born ")
 else:
-    print("You are offline.")
+    print("The babe not born yet")
 
 
 

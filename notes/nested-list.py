@@ -7,6 +7,12 @@ my_list = [["item1", "item2"], ["item3", "item4"]]
 
 # print(element)
 
-for element in my_list:
+# for element in my_list:
+#     for item in element:
+#         print(item, end=" ")
+
+symbols = [["#"], ["*"]]
+
+for element in symbols:
     for item in element:
         print(item, end=" ")
