@@ -27,7 +27,7 @@
 
 import csv
 
-file_path = r"C:\Users\limas\Desktop\example.csv"
+file_path = r"C:\Users\limas\Desktop\example.pdf"
 
 try:
     with open(file_path, 'r', encoding='utf-8') as file:
