@@ -58,14 +58,41 @@
 #     print("Não tem fruta")
 
 #6 Loops de repetição while:
-#Loop de repetição while, acontece enquando uma condição é verdadeira.
-ligado = True
+#For itera uma sequencia (lista, string, range, etc) forma mais comum.
+# lista = ["GBA", "PS1", "NES"]
 
-while ligado:
-    for num in range(10):
-        print(num)
-    else:
-        ligado = False
+# for game in lista:
+#     print(game, end=" ") 
+
+# for i in range(1, 6):
+#     print(i)
+
+#While - Excuta enquanto uma condição booleana é verdadeira - caso de uso - quando não sabemos quantas repetições vamos precisar.
+
+# num = 0
+# while num < 5:
+#     print(num)
+#     num += 1
+
+# import time
+
+# ligado = True
+
+# while ligado:
+#     for num in range(1, 4):
+#         print(num)
+#         time.sleep(1)
+#     ligado = False
+
+# while True:
+#     itens = input("Escolha um item (n para sair): ").lower()
+#     if itens == "n":
+#         break
+
+# contador = 0
+# while contador < 4:
+#     print(contador)
+#     contador = contador + 1
 
 # Estrutura de dados
 # Listas
