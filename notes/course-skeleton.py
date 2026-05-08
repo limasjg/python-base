@@ -116,6 +116,6 @@
 
 #Dicionario {k:v} Mutável, ordenado (py 3.7), não permite chave igual
 
-pessoa = {"nome":"João", "idade":25, "Vivo":True}
-pessoa.update({"Cidade":"Curitiba"})
-print(pessoa["nome"])
+# pessoa = {"nome":"João", "idade":25, "Vivo":True}
+# pessoa.update({"Cidade":"Curitiba"})
+# print(pessoa["nome"])
