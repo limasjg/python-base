@@ -61,8 +61,8 @@
 #For itera uma sequencia (lista, string, range, etc) forma mais comum.
 # lista = ["GBA", "PS1", "NES"]
 
-# for game in lista:
-#     print(game, end=" ") 
+# for console in lista:
+#     print(console, end=" ") 
 
 # for i in range(1, 6):
 #     print(i)
@@ -95,5 +95,27 @@
 #     contador = contador + 1
 
 # Estrutura de dados
-# Listas
+# Listas - organizada e pode repetir o valor [ ]
 # lista = [1, 2, 3]
+# lista.append(3)
+# print(lista)
+
+#Sets não ordenada e Não elementos repetidos { }
+
+# eletronico = {"TV", "Notebook", "Celular"}
+# eletronico.add("Relógio")
+# eletronico.add("Monitor") # Não repete
+
+# print(eletronico)
+
+#Tuplas - Imutáveis , ordenadas e permite repetição.
+# veiculos = ["carro", "moto", "Van", "carro", "onibus"]
+# print(veiculos[0]) # Da pra usar indice
+# transportes = veiculos + ["Avião"] # da pra concatenar
+# print(transportes)
+
+#Dicionario {k:v} Mutável, ordenado (py 3.7), não permite chave igual
+
+pessoa = {"nome":"João", "idade":25, "Vivo":True}
+pessoa.update({"Cidade":"Curitiba"})
+print(pessoa["nome"])
